@@ -1449,6 +1449,7 @@ header:not(.tpc-menu-outer_content)>.tpc-logotype-container .logo-name {
 .tpc-mobile-header .tpc-header-row {
     display: flex;
     align-items: center;
+    background: white;
 }
 .tpc-mobile-header .primary-nav ul li a span:after {
     display: none;
@@ -1457,6 +1458,7 @@ header:not(.tpc-menu-outer_content)>.tpc-logotype-container .logo-name {
     padding: 10px;
     margin-left: -10px;
     margin-right: -10px;
+    color: black;
 }
 .tpc-mobile-header .header_search .tpc-search .header_search-close {
     transform: scale(0);
@@ -1586,6 +1588,7 @@ body.single-header.elementor-editor-active .tpc-site-header, body.single-header.
     padding: 20px !important;
     margin-right: -20px;
     margin-left: -20px;
+    color: black;
 }
 body.mobile_switch_on .hamburger-inner span:nth-child(1) {
     animation: ease .7s .4s burger_top-1-45 forwards;
@@ -12636,7 +12639,7 @@ div.lmsmart_search_result {
     left: 0;
     width: 100%;
     padding: 0 35px 0 35px;
-    z-index: 2;
+    z-index: 1;
 }
 .tpc-cat-item .single-cat__item .tpc-video_popup .videobox_content {
     margin-bottom: 20px;
